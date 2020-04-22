@@ -385,9 +385,7 @@ public class Interpreter {
                                                                     new ForkStatement(new CallStatement("sum",Arrays.asList(new VariableExpression("v"),new VariableExpression("w")))) )))))))));
     }
 
-    private static StatementInterface ex33(){
 
-    }
     public static ArrayList<StatementInterface> getAll(){
         ArrayList<StatementInterface> s = new ArrayList<>();
         s.add(ex1());
